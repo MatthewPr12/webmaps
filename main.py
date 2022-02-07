@@ -3,13 +3,21 @@ import folium
 from folium import plugins
 import pandas as pd
 import numpy as np
+from os import path
 
-parser = argparse.ArgumentParser(description="Find ten movies that where filmed closest to your location")
+parser = argparse.ArgumentParser(description="Find movies that where filmed"
+                                             " closest/furthest to your location")
 parser.add_argument("year", help="The year when the movies where filmed", type=int)
 parser.add_argument("latitude", help="The latitude of the point of your location", type=float)
 parser.add_argument("longitude", help="The longitude of the point of your location", type=float)
 parser.add_argument("path_to_ds", help="The path to your dataset", type=str)
 args = parser.parse_args()
+
+
+def checking_path(ds_path):
+    if not path.isfile(ds_path):
+        print('Please, enter valid path to your dataset (cvs file)')
+        quit()
 
 
 def haversine(lon1, lat1, lon2, lat2, year):
@@ -24,22 +32,20 @@ def haversine(lon1, lat1, lon2, lat2, year):
         return float("inf")
 
 
+# creating datasets
+checking_path(args.path_to_ds)
 films_df = pd.read_csv(args.path_to_ds)  # using cleared dataset from clearing_ds.py
 films_df['Distance'] = films_df.apply(lambda row: haversine(args.longitude,
                                                             args.latitude, row['Longitude'],
                                                             row['Latitude'], row['year']), axis=1)
 films_df.sort_values(by=['Distance'], inplace=True)
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_colwidth', None)
 closest_films = films_df.head(10)
 films_df.drop(films_df.index[films_df['Distance'] == float('inf')], inplace=True)
 furthest_films = films_df.tail(10)
 banned_films = films_df[films_df['location'].str.contains("Россия")]
 domestic_films = films_df[films_df['location'].str.contains("Україна")]
 
-
-######################### creating map
+# creating map
 my_map = folium.Map(location=[args.latitude, args.longitude], zoom_start=10)
 mini_map = plugins.MiniMap(toggle_display=True)
 my_map.add_child(mini_map)

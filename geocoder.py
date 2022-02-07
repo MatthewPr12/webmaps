@@ -4,7 +4,7 @@ import pandas as pd
 from clearing_ds import df
 
 
-df = df.head(100)
+df = df.head(20000)
 print(df)
 geocoder = RateLimiter(Nominatim(user_agent="sth").geocode, min_delay_seconds=1)
 df['location'] = df['location'].apply(geocoder)

@@ -24,12 +24,12 @@ It takes three arguments:
 
 The program will find up to ten films that were shot closest to the given *location(latitude, longitude)* in the given *year*.
 It will create an *.html* file named [my_map1.html](https://github.com/MatthewPr12/webmaps/tree/main/maps) that you can open using your favorite browser
-[![safari-icon](https://user-images.githubusercontent.com/91616807/153007732-88700934-3954-4767-8acd-8cba5f97ca93.png)]
-[![google-chrome-icon-blue-black-33](https://user-images.githubusercontent.com/91616807/153007781-37bc553c-8826-45f7-aa10-366884e7f6ca.png)]
-[![Firefox-icon](https://user-images.githubusercontent.com/91616807/153007799-90cf659c-2eaa-472d-b1ba-5f4315f9700e.png)]
-[![Internet-Explorer-icon](https://user-images.githubusercontent.com/91616807/153007817-2301fa80-bc5f-4a8b-9d98-08052369da9c.png]
+![safari-icon](https://user-images.githubusercontent.com/91616807/153007732-88700934-3954-4767-8acd-8cba5f97ca93.png)
+![google-chrome-icon-blue-black-33](https://user-images.githubusercontent.com/91616807/153007781-37bc553c-8826-45f7-aa10-366884e7f6ca.png)
+![Firefox-icon](https://user-images.githubusercontent.com/91616807/153007799-90cf659c-2eaa-472d-b1ba-5f4315f9700e.png)
+![Internet-Explorer-icon](https://user-images.githubusercontent.com/91616807/153007817-2301fa80-bc5f-4a8b-9d98-08052369da9c.png
 
 After you opened the page you can do next things:
-* zoom in or out + enter or exit full-screen mode (topright) [<img width="26" alt="Screenshot 2022-02-08 at 16 39 12" src="https://user-images.githubusercontent.com/91616807/153009786-d726f812-0791-42e8-a265-fd70b9353713.png">]
-* display or remove layers of Markers + change dark and light modes of the map (topright) [<img width="35" alt="Screenshot 2022-02-08 at 16 38 07" src="https://user-images.githubusercontent.com/91616807/153010227-f38c1ca4-3ef0-4b84-9483-49114ad9135f.png">]
-* change scrolling method (bottomleft) [<img width="31" alt="Screenshot 2022-02-08 at 16 39 31" src="https://user-images.githubusercontent.com/91616807/153010508-6553158b-24e5-4754-adce-3cb051b61338.png">]
+* zoom in or out + enter or exit full-screen mode (topright) <img width="30" alt="Screenshot 2022-02-08 at 16 39 12" src="https://user-images.githubusercontent.com/91616807/153009786-d726f812-0791-42e8-a265-fd70b9353713.png">
+* display or remove layers of Markers + change dark and light modes of the map (topright) <img width="30" alt="Screenshot 2022-02-08 at 16 38 07" src="https://user-images.githubusercontent.com/91616807/153010227-f38c1ca4-3ef0-4b84-9483-49114ad9135f.png">
+* change scrolling method (bottomleft) <img width="30" alt="Screenshot 2022-02-08 at 16 39 31" src="https://user-images.githubusercontent.com/91616807/153010508-6553158b-24e5-4754-adce-3cb051b61338.png">

@@ -14,7 +14,7 @@ Having the places(countries, cities, streets etc.) where all the films were shot
  ## Creating Maps
 The task itself(create the map and mark different types of film on it) is implemented using **folium** python package. [main.py](https://github.com/MatthewPr12/webmaps/blob/main/main.py) can be launched using comand line.
 
-<pre><code>python3 main.py 1993 49.7714509 23.6730132 /Users/< user >/path_to_dataset/cleared_films.csv</code></pre>
+<pre><code>python3 main.py 1993 49.7714509 23.6730132 /Users/<user>/<path_to_dataset>/cleared_films.csv</code></pre>
 
 It takes three arguments:
 1. year (integer)

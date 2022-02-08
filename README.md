@@ -30,6 +30,6 @@ It will create an *.html* file named [my_map1.html](https://github.com/MatthewPr
 ![Internet-Explorer-icon](https://user-images.githubusercontent.com/91616807/153007817-2301fa80-bc5f-4a8b-9d98-08052369da9c.png
 
 After you opened the page you can do next things:
-* zoom in or out + enter or exit full-screen mode (topright) <img width="30" alt="Screenshot 2022-02-08 at 16 39 12" src="https://user-images.githubusercontent.com/91616807/153009786-d726f812-0791-42e8-a265-fd70b9353713.png">
-* display or remove layers of Markers + change dark and light modes of the map (topright) <img width="30" alt="Screenshot 2022-02-08 at 16 38 07" src="https://user-images.githubusercontent.com/91616807/153010227-f38c1ca4-3ef0-4b84-9483-49114ad9135f.png">
-* change scrolling method (bottomleft) <img width="30" alt="Screenshot 2022-02-08 at 16 39 31" src="https://user-images.githubusercontent.com/91616807/153010508-6553158b-24e5-4754-adce-3cb051b61338.png">
+* zoom in or out + enter or exit full-screen mode (topright) <img width="26" alt="Screenshot 2022-02-08 at 16 54 20" src="https://user-images.githubusercontent.com/91616807/153012901-ffb8ddf8-fea2-4f9f-9a17-4e9227857483.png"> <img width="26" alt="Screenshot 2022-02-08 at 16 54 44" src="https://user-images.githubusercontent.com/91616807/153012984-cfdf9c18-403b-4da4-95f2-06eeacf14db2.png"> <img width="26" alt="Screenshot 2022-02-08 at 16 55 27" src="https://user-images.githubusercontent.com/91616807/153013076-ef3f41d1-aae7-4475-9c29-c02614e151ec.png">
+* display or remove layers of Markers + change dark and light modes of the map (topright) <img width="26" alt="Screenshot 2022-02-08 at 16 38 07" src="https://user-images.githubusercontent.com/91616807/153010227-f38c1ca4-3ef0-4b84-9483-49114ad9135f.png">
+* change scrolling method (bottomleft) <img width="26" alt="Screenshot 2022-02-08 at 16 39 31" src="https://user-images.githubusercontent.com/91616807/153010508-6553158b-24e5-4754-adce-3cb051b61338.png">

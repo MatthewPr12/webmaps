@@ -1,9 +1,12 @@
+"""
+Create webmaps using folium package and IMDB dataset
+"""
 import argparse
-import folium
-from folium import plugins
-import pandas as pd
-import numpy as np
 from os import path
+import folium  # pylint: disable=import-error
+from folium import plugins  # pylint: disable=import-error
+import pandas as pd  # pylint: disable=import-error
+import numpy as np  # pylint: disable=import-error
 
 parser = argparse.ArgumentParser(description="Find movies that where filmed"
                                              " closest/furthest to your location")
@@ -15,12 +18,26 @@ args = parser.parse_args()
 
 
 def checking_path(ds_path):
+    """
+    check if path is valid
+    :param ds_path:
+    :return:
+    """
     if not path.isfile(ds_path):
         print('Please, enter valid path to your dataset (cvs file)')
-        quit()
+        quit()  # pylint: disable=consider-using-sys-exit
 
 
 def haversine(lon1, lat1, lon2, lat2, year):
+    """
+    count haversine distance between two points
+    :param lon1:
+    :param lat1:
+    :param lon2:
+    :param lat2:
+    :param year:
+    :return:
+    """
     if year == args.year:
         lon1, lat1, lon2, lat2 = map(np.radians, [lon1, lat1, lon2, lat2])
         dlon = lon2 - lon1
@@ -28,8 +45,8 @@ def haversine(lon1, lat1, lon2, lat2, year):
         dist = 2 * 6367 * np.arcsin(np.sqrt(np.sin(dlat / 2.0) ** 2 + np.cos(lat1)
                                             * np.cos(lat2) * np.sin(dlon / 2.0) ** 2))
         return dist
-    else:
-        return float("inf")
+
+    return float("inf")
 
 
 # creating datasets

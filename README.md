@@ -8,6 +8,7 @@ All in all, I got clear DataFrame of more than 10000 films and info about them.
 
 ## Coordinates
 Having the places(countries, cities, streets etc.) where all the films were shot, I needed to get their accurate geographical coordinates location(to be able to set some Markers later). In order to do so, I used **geopy** python package. The thing is that with only one request per second is allowed there. So I launched [geocoder.py](https://github.com/MatthewPr12/webmaps/blob/main/geocoder.py) overnight and managed to get coordinates for all the locations.
+
  </br>
 
  ## Creating Maps
@@ -20,7 +21,7 @@ It takes three arguments:
 1. year (integer)
 2. latitude (float)
 3. longitude (float)
-4. path to the dataset (csv-file)
+4. path to the dataset (csv-file: str)
 
 The program will find up to ten films that were shot closest to the given *location(latitude, longitude)* in the given *year*.
 It will create an *.html* file named [my_map1.html](https://github.com/MatthewPr12/webmaps/tree/main/maps) that you can open using your favorite browser

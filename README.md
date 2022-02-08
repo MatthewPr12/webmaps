@@ -1,4 +1,4 @@
-#Webmaps
+# Webmaps
 ##### using python package **folium**
 ## Clearing Data
 Given the *.list* file(imdb dataset) which consists of more than **1 million** lines with film names, the year that they were relesed and the set location(sometimes with some additional info), I neaded to get the clear data out of it, so that it would be easier to work with it. Obviously, the file was messy, but I did not need all the films(and there's the reson for that which will be depicted later). Therefore, I used **pandas** package in order to get the needed info and turn it into clear csv-file [cleared_films.csv](https://github.com/MatthewPr12/webmaps/blob/main/datasets/cleared_films.csv).

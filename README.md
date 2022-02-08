@@ -24,7 +24,7 @@ It takes three arguments:
 
 The program will find up to ten films that were shot closest to the given *location(latitude, longitude)* in the given *year*.
 It will create an *.html* file named [my_map1.html](https://github.com/MatthewPr12/webmaps/tree/main/maps) that you can open using your favorite browser
-![safari-icon](https://user-images.githubusercontent.com/91616807/153007732-88700934-3954-4767-8acd-8cba5f97ca93.png)
+![safari-icon](https://user-images.githubusercontent.com/91616807/153007732-88700934-3954-4767-8acd-8cba5f97ca93.png =250x250)
 ![google-chrome-icon-blue-black-33](https://user-images.githubusercontent.com/91616807/153007781-37bc553c-8826-45f7-aa10-366884e7f6ca.png)
 ![Firefox-icon](https://user-images.githubusercontent.com/91616807/153007799-90cf659c-2eaa-472d-b1ba-5f4315f9700e.png)
 ![Internet-Explorer-icon](https://user-images.githubusercontent.com/91616807/153007817-2301fa80-bc5f-4a8b-9d98-08052369da9c.png)
